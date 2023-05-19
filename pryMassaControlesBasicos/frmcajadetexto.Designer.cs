@@ -34,18 +34,19 @@
             // 
             // btningresar
             // 
-            this.btningresar.Location = new System.Drawing.Point(131, 301);
+            this.btningresar.Location = new System.Drawing.Point(100, 211);
             this.btningresar.Name = "btningresar";
             this.btningresar.Size = new System.Drawing.Size(75, 23);
             this.btningresar.TabIndex = 0;
             this.btningresar.Text = "ingresar";
             this.btningresar.UseVisualStyleBackColor = true;
+            this.btningresar.Click += new System.EventHandler(this.btningresar_Click);
             // 
             // lblbienvenidos
             // 
             this.lblbienvenidos.AutoSize = true;
             this.lblbienvenidos.Font = new System.Drawing.Font("Ravie", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblbienvenidos.Location = new System.Drawing.Point(62, 144);
+            this.lblbienvenidos.Location = new System.Drawing.Point(49, 74);
             this.lblbienvenidos.Name = "lblbienvenidos";
             this.lblbienvenidos.Size = new System.Drawing.Size(205, 30);
             this.lblbienvenidos.TabIndex = 1;
@@ -55,11 +56,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(334, 450);
+            this.ClientSize = new System.Drawing.Size(290, 366);
             this.Controls.Add(this.lblbienvenidos);
             this.Controls.Add(this.btningresar);
             this.Name = "frmcajadetexto";
-            this.Text = "Form1";
+            this.Text = "principal";
             this.ResumeLayout(false);
             this.PerformLayout();
 

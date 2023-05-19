@@ -16,5 +16,13 @@ namespace pryMassaControlesBasicos
         {
             InitializeComponent();
         }
+
+        private void btningresar_Click(object sender, EventArgs e)
+        {
+           frmprinicipal frmprinicipal = new frmprinicipal();
+            frmprinicipal.ShowDialog();
+
+
+        }
     }
 }
