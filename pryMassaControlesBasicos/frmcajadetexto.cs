@@ -27,25 +27,10 @@ namespace pryMassaControlesBasicos
 
         }
 
-        private void frmControlesBasicos_MouseMove(object sender, MouseEventArgs e)
-        {
-            lblEjeX.Text = e.X.ToString();
-            lblEjeY.Text = e.Y.ToString();
-        }
-
-        private void frmControlesBasicos_Click(object sender, EventArgs e)
-        {
-            lblbienvenidos.Visible = true;
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
             frmprinicipal frmprinicipal = new frmprinicipal();
             frmprinicipal.ShowDialog();   
-        }
-        private void lblbienvenidos_MouseMove(object sender, MouseEventArgs e)
-        {
-            lblbienvenidos.Location = new Point(random.Next(10, 850), random.Next(10, 850));
         }
     }
 }
