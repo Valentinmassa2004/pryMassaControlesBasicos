@@ -28,14 +28,6 @@ namespace pryMassaControlesBasicos
 
         }
 
-        private void frmControlesBasicos_MouseEnter(object sender, EventArgs e)
-        {
-            Random random = new Random();
-            int maxWidth = this.Width - lblbienvenidos.Width;
-            int maxHeight = this.Height - lblbienvenidos.Height;
-            lblbienvenidos.Location = new Point(random.Next(maxWidth), random.Next(maxHeight));
-        }
-
         private void frmControlesBasicos_MouseMove(object sender, MouseEventArgs e)
         {
             lblEjeX.Text = e.X.ToString();
