@@ -12,8 +12,7 @@ namespace pryMassaControlesBasicos
 {
     public partial class frmcajadetexto : Form
     {
-        Random random = new Random();
-        public frmcajadetexto()
+       public frmcajadetexto()
         {
             InitializeComponent();
         }
